@@ -4,6 +4,13 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
 
+/**
+ * Properties クラスは、不変のプロパティーセットを表します。
+ * Properties を、ストリームへ保管したり、ストリームからロードしたりできます。
+ * プロパティーリストの各キー、およびそれに対応する値は文字列です。
+ * @author yao
+ *
+ */
 public class PropertiesManager {
 
 	public static Properties getProperties(String propertiesFileName) {
